@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            animation: glow 2s infinite alternate;
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 0 0 20px #ff6f91;
+        }
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+            animation: flicker 3s infinite;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #ff6f91; }
+            to { text-shadow: 0 0 30px #ff6f91; }
+        }
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .hearts {
+            margin-top: 30px;
+            font-size: 2em;
+            color: #ff4757;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Te Quiero Demasiado, Ericka M</h1>
+    <p>Eres lo mejor que me ha pasado en la vida no te vayas de mi lado.</p>
+    <div class="hearts">❤️❤️❤️</div>
+</body>
+</html>
